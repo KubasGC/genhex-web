@@ -24,7 +24,7 @@ const NavBarItem: FunctionComponent<NavBarItemModel> = ({ text, active }) => {
 
 const NavBar: FunctionComponent = () => {
   return (
-    <nav className="w-full h-[60px] bg-primary shadow-lg flex gap-2 items-center px-4 justify-between sticky">
+    <nav className="w-full h-[60px] bg-primary shadow-lg flex gap-2 items-center px-4 justify-between sticky top-0 z-50">
       <div className="text-white text-[24px] tracking-widest">
         <img src={Logo} className="h-[32px]" />
       </div>
