@@ -11,7 +11,7 @@ const Footer: FunctionComponent = () => {
           </p>
           <ul className="text-sm">
             <li className="mb-1">123 Main St</li>
-            <li className="mb-1">Anytown, USA</li>
+            <li className="mb-1">Maryland, USA</li>
             <li className="mb-1">contact@gennhex.com</li>
             <li>555-555-5555</li>
           </ul>
