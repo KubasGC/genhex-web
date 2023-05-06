@@ -38,7 +38,7 @@ const OurTools: FunctionComponent<OurToolsProps> = () => {
 
 export default OurTools;
 
-const Tool = ({ name, desc, image }: any) => {
+const Tool = ({ desc, image }: any) => {
   return (
     <div className="w-[300px] min-h-[360px] p-4 bg-white/10 rounded-lg">
       <div className="h-[75px] w-full">
